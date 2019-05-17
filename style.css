@@ -1,0 +1,164 @@
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none
+}
+.navbar-collapse .navbar-nav li {
+  padding-right: 10px;
+  padding-left: 10px
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+.navbar .navbar-default {
+  background-color: transparent;
+}
+.navbar-default .navbar-collapse .navbar-nav > li > a {
+  font-size: 100%;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+}
+.navbar .navbar-default .navbar-nav > li > a:hover {
+  color: black;
+}
+hr.hrstyle {
+  height: 6px;
+  background: url(http://ibrahimjabbari.com/english/images/hr-12.png) repeat-x 0
+    0;
+  border: 0;
+  margin-bottom: 10px;
+  width: 50%
+}
+hr.hrart {
+  height: 6px;
+  background: url(http://ibrahimjabbari.com/english/images/hr-12.png) repeat-x 0
+    0;
+  border: 0;
+  width: 30%
+}
+.slide{
+  max-width: 1200px;
+  width: 60%;
+  margin: 90px auto 80px auto
+}
+.hvr-underline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: grey;
+  height: 4px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-center:hover:before,
+.hvr-underline-from-center:focus:before,
+.hvr-underline-from-center:active:before {
+  left: 0;
+  right: 0;
+}
+.main{
+  margin-top: 60px
+}
+.main h1, .content h2{
+  text-align: center;
+  font-family: 'Alegreya', serif;
+  font-size: 260%;
+}
+.content h2{
+  font-size: 260%;
+}
+.content p{
+  font-size: 130%;
+  font-family: 'Encode Sans', sans-serif;
+  text-align: center;
+  line-height: 1.8
+}
+.margintop{
+  padding-top: 50px
+}
+.content .row{
+  padding: 80px
+}
+.product-link img{
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  object-fit: cover;
+}
+.product-link:hover img{
+  opacity: 0.8;
+  cursor: pointer
+}
+.hover-text {
+  position: absolute;
+  top: 20%;
+  transition:s ease;
+  opacity: 0;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  background-color: black;
+    -webkit-transition: .5s ease;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.product-link:hover .hover-text {
+  opacity: 0.8;
+  cursor: pointer
+}
+.product-text{
+  background-color: #e4e4e4;
+}
+.product-text h4{
+    font-size: 200%;
+    font-weight: bold;
+    font-family: 'Alegreya', serif;
+    padding: 20px 0 10px 0;
+    margin: 0
+  }
+.product-text p{
+    padding-bottom: 20px
+  }
+.modal-content .close{
+  margin: 3px 10px 0 0;
+  text-shadow: 0;
+  opacity: 0.7;
+  font-size: 260%;
+  font-weight: 90;
+}
+.modal-content .modal-title{
+  margin: 40px 0 15px 0
+}
+.modal-body p{
+  padding: 20px
+}
+.modal-body img{
+  margin: auto
+}
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+    background-color: white !important
+}
